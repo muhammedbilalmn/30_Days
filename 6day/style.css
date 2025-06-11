@@ -1,0 +1,114 @@
+        body
+            {
+                font-family: 'poppins',sans-serif;
+                background-color: aliceblue;
+                color: rgb(15, 14, 13);
+                line-height: 2;
+                margin: 0;
+                padding: 0;
+            }
+        h1,h2
+            {
+                font-weight: 700;
+            }
+        p
+            {
+                font-weight: 400;
+            }
+        a
+            {
+                color: rgb(28, 100, 158);
+                text-decoration: wavy;
+            }
+        a :hover
+            {
+                color: rgb(39, 65, 121);
+                text-decoration: underline;
+            }
+        header
+            {
+                background: linear-gradient(to right,rgb(85, 236, 241),#ec6a1f);
+                color: aliceblue;
+                padding: 20px;
+                text-align: center;
+            }
+        footer
+            {
+                background: linear-gradient(to right,rgb(224, 222, 73),rgb(218, 125, 49));
+                color: rgb(255, 255, 255);
+                padding: 20px;
+            }
+       
+        section
+            {
+                
+              
+                background-color: aliceblue;
+                border-radius: 10px;
+                max-width: 1000px;
+            }
+        img
+            {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                box-shadow: 0 5px 15px rgb(19, 16, 16);
+                object-fit: cover;
+            }
+        form
+            {
+                max-width: 500px;
+                margin: 20px auto;
+                padding: 20px;
+                background: white;
+                box-shadow: 0 5px 15px rgb(19, 16, 16);
+                
+            }
+        form input[type="text"]
+        form input[type="email"]
+        form textarea
+            {
+                width: calc(100%-20px);
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid red;
+                border-radius: 5px;
+            }
+        form button
+            {
+                background: rgb(45, 139, 216);
+                color: aliceblue;
+                border: 0;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 18px;
+            }
+        form button:hover
+            {
+                background: #223b4d;
+            }
+        .skills-list {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 30px;
+            }
+        .skills-list li
+            {
+                list-style-type: none;
+                background: white;
+                padding: 10px 15px;
+                border-radius: 5px;
+                box-shadow: 0 2px 4px black;
+                animation: bounce 1s infinite alternate;
+            }
+        /*to make bouncing animation*/
+        @keyframes bounce {
+            form {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-10px);
+            }
+        }
