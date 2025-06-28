@@ -10,7 +10,7 @@ window.addEventListener("load", function () {
     }, 500); // Wait for transition
 });
 
-const apiKey = "4431de4ca47b08e5fc93517e8150272e"
+const apiKey = "your api key"
 
 async function getWeather() {
     
